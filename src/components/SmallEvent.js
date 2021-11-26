@@ -7,3 +7,5 @@ const SmallEvent = () => {
         </div>
     )
 }
+
+export default SmallEvent;
