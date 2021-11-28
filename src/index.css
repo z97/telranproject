@@ -28,6 +28,13 @@ code {
 
 }
 
-.user-avatar{
+.user-avatar {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
 
+.user-avatar.small {
+  width: 32px;
+  height: 32px;
 }
