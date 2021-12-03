@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => {
-    return(
+    return (
         <div className='header'>
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid">
@@ -15,11 +15,12 @@ const Header = () => {
                             aria-describedby="search-addon"
                         />
                         <span className="input-group-text border-0" id="search-addon">
-        <i className="fas fa-search"></i>
-      </span>
+                            <i className="fas fa-search"/>
+                        </span>
                     </form>
                 </div>
             </nav>
+            <dateFromPicker/>
         </div>
     )
 }
