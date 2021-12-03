@@ -1,0 +1,23 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "data": [
+    {
+      "id": 1,
+      "date": "24/05/2021",
+      "timeFrom": "16:00",
+      "timeTo": "20:00",
+      "name": "Tel-Aviv",
+      "shortDescribe": "Friends",
+      "fullDescription": "At Shabatt",
+      "place": "Watchtower",
+      "other": "peoples",
+      "city": "Tel Aviv",
+      "numberOfParticipants": "30",
+      "complexity": "Easy",
+      "price": 50
+    }
+  ]
+}

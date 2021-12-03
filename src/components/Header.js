@@ -3,11 +3,15 @@ import React from 'react';
 const Header = () => {
     return(
         <div className='header'>
-            <form action="/action_page.php">
-                <label htmlFor="search">Search</label>
-                <input type="text" id="search" name="search"><br><br>
-                        <input type="submit" value="Submit">
-            </form>
+            <div className="input-group">
+                <div className="form-outline">
+                    <input type="search" id="form1" className="form-control"/>
+                    <label className="form-label" htmlFor="form1">Search</label>
+                </div>
+                <button type="button" className="btn btn-primary">
+                    <i className="fas fa-search"></i>
+                </button>
+            </div>
         </div>
     )
 }
