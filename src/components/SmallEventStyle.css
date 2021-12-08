@@ -1,0 +1,9 @@
+.smallEvent{
+    top: 149px;
+    left: 45px;
+    width: 1276px;
+    height: 200px;
+    background: var(--unnamed-color-f8f8f8) 0 0% no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+}

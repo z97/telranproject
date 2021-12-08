@@ -1,10 +1,10 @@
 import React from 'react';
 import{listOfEventsData} from "../data"
-
+import styles from './SmallEventStyle.css'
 const SmallEvent = () => {
     return (
         <div className='smallEvent'>
-            <div className="card">
+
                 <img
                     src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
                     className="card-img-top"
@@ -33,7 +33,7 @@ const SmallEvent = () => {
                         );
                     })}
                 </div>
-            </div>
+
         </div>
     )
 }
