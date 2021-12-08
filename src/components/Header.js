@@ -15,8 +15,10 @@ const Header = () => {
                             aria-describedby="search-addon"
                         />
                         <span className="input-group-text border-0" id="search-addon">
-                            <i className="fas fa-search"/>
+                            <i className="bi bi-search"/>
                         </span>
+                        <label for="start">Start date</label>
+                        <input type="date" id="start" name="trip-start" value="2018-0" 
                     </form>
                 </div>
             </nav>

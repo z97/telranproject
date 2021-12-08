@@ -1,0 +1,2 @@
+changeAvatarAction
+changeNameAction
