@@ -18,11 +18,11 @@ const mapStateToProps = state => (
     }
 )
 
-const mapDispatchToProps = dispatch => {
-    return bindActionCreators({
-        changeAvatar: changeAvatarAction,
-        changeName: changeNameAction
-    }, dispatch);
-}
+// const mapDispatchToProps = dispatch => {
+//     return bindActionCreators({
+//         changeAvatar: changeAvatarAction,
+//         changeName: changeNameAction
+//     }, dispatch);
+// }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Avatar);
+// export default connect(mapStateToProps, mapDispatchToProps)(Avatar);

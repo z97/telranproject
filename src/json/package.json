@@ -1,8 +1,5 @@
 {
-  "name": "json",
-  "version": "1.0.0",
-  "dependencies": {
-    "data": [
+  "data": [
     {
       "id": 1,
       "date": "24/05/2021",
@@ -19,6 +16,4 @@
       "price": 50
     }
   ]
-  }
-  
 }

@@ -5,7 +5,7 @@ const YourGuide = ({name}) => {
     <div className='yourGuide'>
       <div>
         Your guide:
-        <Avatar/>
+        {/* <Avatar/> */}
         {name}
       </div>
     </div>
