@@ -17,8 +17,11 @@ const Header = () => {
                         <span className="input-group-text border-0" id="search-addon">
                             <i className="bi bi-search"/>
                         </span>
-                        <label for="start">Start date</label>
-                        <input type="date" id="start" name="trip-start" value="2018-0" 
+                        <label htmlFor="start">Start date:</label>
+
+                        <input type="date" id="start" name="trip-start"
+                               value="2018-07-22"
+                               min="2018-01-01" max="2018-12-31"/>
                     </form>
                 </div>
             </nav>
