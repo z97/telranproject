@@ -1,7 +1,6 @@
 import React from "react";
-import image from "./smallEventImage.jpg";
+import image from "../assets/images/smallEventImage.jpg";
 import Button from "react-bootstrap/Button";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const SmallEvent = () => {
   return (

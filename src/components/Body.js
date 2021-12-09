@@ -1,5 +1,4 @@
 import React from 'react';
-import Search from "./Search";
 import SmallEvent from "./SmallEvent";
 import Header from "./Header";
 
