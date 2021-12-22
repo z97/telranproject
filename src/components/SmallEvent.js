@@ -20,7 +20,7 @@ class SmallEvent extends React.Component {
 
     render() {
         return (
-            <div className="smallEvent">
+            <div className="smallEvent" >
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3">

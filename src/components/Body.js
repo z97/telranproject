@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import SmallEvent from "./SmallEvent";
 import Header from "./Header";
+import json from "../assets/json/package.json"
 
 const Body = () => {
+    const [smallEvent, setSmallEvent] = useState([
+        {json}
+    ])
     return (
         <div className='body'>
             <Header/>
